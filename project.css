@@ -1,52 +1,22 @@
-nav{
-    margin:-8px;
-    padding:-8px;
-    border:-8px;
-    height: 70px;
-    background-color: white;
-    font-size: larger;
-    font-family: poppins;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.home{
-    display: inline;
-    padding: 25px;
-}
-.about{
-    display: inline;
-    padding: 25px;
-}
-.help{
-    display: inline;
-    padding: 25px;
-}
-
 html{
     height: 100%;
     width: 100%;
 }
 
-.main{
-    opacity: 1;
-    margin: -8px;
-    color: rgb(0, 0, 0);
-    height: 700px;
-    margin-top: 8px;
-    width: 1226,8;
-    background-color: rgb(209, 209, 209);
-}
-
-
-.introduction{
-    position: relative;
-    width: 50%; 
-    margin-left: auto;
-    margin-right: auto; 
+header{
+    margin:-8px;
+    padding:-8px;
+    border:-8px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
     font-family: poppins;
-    text-align: center;
-    top: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo-comp{
+    position: relative;
+    line-height: 50px;
 }
 .logo{
     position: relative;
@@ -59,15 +29,18 @@ html{
     display: inline;
     font-size: 12pt;
 }
-
-.upper{
-    text-align: center;
-    font-family: poppins;
-    font-size: xx-large;
-    font-weight: 500;
-    font-style: normal;
+.home{
+    display: inline;
+    padding: 20px;
 }
-
+.about{
+    display: inline;
+    padding: 20px;
+}
+.help{
+    display: inline;
+    padding: 20px;
+}
 .user{
     position: relative;
     margin-left: 97.5%;
@@ -80,13 +53,150 @@ html{
     height: 1px;
     background-color: rgb(228, 228, 228)
 }
-.logo-comp{
-    position: relative;
-    line-height: 53px;
+
+
+.main{
+    opacity: 1;
+    margin: -8px;
+    color: rgb(0, 0, 0);
+    height: 564.4px;
+    margin-top: 8px;
+    width: 1226,8;
+    background-image: url("images/bg0.png");
 }
-
-
+.upper{
+    text-align: center;
+    font-family: poppins;
+    font-size: 40pt;
+    font-weight: 500;
+    font-style: normal;
+}
+.introduction{
+    position: relative;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 15pt;
+    font-family: poppins;
+    text-align: center;
+    top: 30px;
+}
 .upper-intro{
     position: relative;
     top: 30px;
 }
+
+.products-list{
+    height: 635px;
+    display: block;
+    position: relative;
+    top: 334px;
+    text-align: center;
+}
+.products-containner{
+    line-height: 635px;
+    font-family: poppins;
+    font-size: medium;
+}
+.sec{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    display: inline-flex;
+    width: 390px;
+    height: 750px;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.art{
+    padding-top: 10%;
+    padding-left: 13.5%;
+}
+
+.txt{
+    position: relative;
+    margin-top: -550px;
+    font-weight: 500;
+    margin-left: -70px;
+    margin-right: auto ;
+    font-size: 26px;
+    text-align: center;
+}
+
+.li{
+    margin-left: 20px;
+    line-height: 1.9;
+    width: 360px;
+    text-align: start;
+}
+
+
+.ul-div{
+    margin-top: 25px;
+    margin-left: -50px;
+    font-size: 13px;
+    color: rgb(77, 77, 77);
+}
+li{
+    width: 265px;
+}
+
+li.li::marker{
+    color: rgb(112, 112, 112);
+}
+#line0{
+    position: relative;
+    display: flex;
+    margin-top: -280px;
+    width: 300px;
+    height: 1px;
+    background: rgb(122, 122, 122);
+    text-align: center;
+}
+
+li span{
+    margin-left:-5px;
+    text-align: start;
+}
+
+.img{
+    position: relative;
+    margin-left: -85px;
+    text-align: center;
+}
+
+.buy-btn{
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.25em;
+    padding-bottom: 0.32em;
+    background: cornflowerblue;
+    height: 100%;
+    display: flex;
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 47px;
+    line-height: 40px;
+    border-radius: 23px;
+    background-color: #1428a0;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    max-width: 265px;
+    width: 100%;
+    border-radius: 23.5px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: 100px;
+
+}
+
+
